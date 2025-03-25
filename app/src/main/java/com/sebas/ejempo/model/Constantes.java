@@ -10,5 +10,7 @@ public class Constantes  {
     public static  int NUM_VERSION = 1;
     public static String SENTENCIA_TABLA = "create table Ciudad(codigo integer, nombre text)";
     public static String SENTENCIA_TABLA2 = "create table Departamento(codigo integer, nombre text)";
+    public static String SENTENCIA_TABLA12 = "create table Historia Clinica(codigo integer, titulo text, contenido text)";
+
 
 }
