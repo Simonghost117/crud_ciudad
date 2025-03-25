@@ -17,5 +17,6 @@ public class Constantes  {
 
     public static String SENTENCIA_TABLA6 = "create table Paciente(idpaciente integer, nombre text, correo varchar, dirección varchar)";
 
+    public static String SENTENCIA_TABLA7 = "create table Nota(codigo integer, titulo text)";
 
 }
