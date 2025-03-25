@@ -17,6 +17,7 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL(Constantes.SENTENCIA_TABLA2);
         db.execSQL(Constantes.SENTENCIA_TABLA3);
         db.execSQL(Constantes.SENTENCIA_TABLA6);
+        db.execSQL(Constantes.SENTENCIA_TABLA12);
     }
 
     @Override
