@@ -15,6 +15,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(Constantes.SENTENCIA_TABLA);
         db.execSQL(Constantes.SENTENCIA_TABLA2);
+        db.execSQL(Constantes.SENTENCIA_TABLA3);
     }
 
     @Override
