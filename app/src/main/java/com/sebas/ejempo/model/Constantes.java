@@ -20,5 +20,6 @@ public class Constantes  {
     public static String SENTENCIA_TABLA7 = "create table Nota(codigo integer, titulo text)";
     public static String SENTENCIA_CUENTABANCARIA = "create table cuentaBancaria(id INT NOT NULL AUTO_INCREMENT, ingresos INT, egresos INT)";
     public static String SENTENCIA_TABLA10 = "create table Entidad(codigo integer, nombre text)";
+    public static String SENTENCIA_TABLA5 = "create table Empresas(codigo interger, nombre text");
 
 }
